@@ -29,10 +29,3 @@ jobs:
             "clientEmail": "${{ secrets.CLIENT_EMAIL }}",
             "privateKey": "${{ secrets.PRIVATE_KEY }}"
           }' > ./assets/firebaseConfig.json
-
-      # 4. Desplegar la aplicación
-      - name: Deploy application
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .
