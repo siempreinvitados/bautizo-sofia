@@ -23,12 +23,12 @@ jobs:
       # 3. Generar archivo de entorno para producción
       - name: Generate firebaseConfig.json
         run: |
-          echo "{
-        \"projectId\": \"${{ secrets.PROJECT_ID }}\",
-        \"databaseURL\": \"${{ secrets.DATABASEURL }}\",
-        \"clientEmail\": \"${{ secrets.CLIENT_EMAIL }}\",
-        \"privateKey\": \"${{ secrets.PRIVATE_KEY }}\"
-          }" > ./assets/firebaseConfig.json
+          echo '{
+            "projectId": "${{ secrets.PROJECT_ID }}",
+            "databaseURL": "${{ secrets.DATABASEURL }}",
+            "clientEmail": "${{ secrets.CLIENT_EMAIL }}",
+            "privateKey": "${{ secrets.PRIVATE_KEY }}"
+          }' > ./assets/firebaseConfig.json
 
       # 4. Construir la aplicación Angular
       - name: Build Angular app
