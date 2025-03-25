@@ -28,11 +28,7 @@ jobs:
       - name: Verificar archivos en assets
         run: ls -la ./assets
 
-      # 4. Mover archivos si es necesario para el flujo de GitHub Pages
-      - name: Mover archivos a raíz (opcional)
-        run: mv ./assets/firebaseConfig.json ./
-
-      # 5. Configurar flujo de trabajo para la subida de artefactos
+      # 4. Configurar flujo de trabajo para la subida de artefactos
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v4.6.2
         with:
