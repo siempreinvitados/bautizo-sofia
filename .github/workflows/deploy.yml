@@ -24,7 +24,7 @@ jobs:
       - name: Generate firebaseConfig.json
         run: |
           echo "{
-          \"projectId\": \"${{ secrets.PROJECT_ID }}\",
+          \"projectId\": \"${{ secrets.PROJECT_ID }}\", 
           \"databaseURL\": \"${{ secrets.DATABASEURL }}\",
           \"clientEmail\": \"${{ secrets.CLIENT_EMAIL }}\",
           \"privateKey\": \"${{ secrets.PRIVATE_KEY }}\"
