@@ -1,4 +1,4 @@
-name: Deploy Angular App
+name: Generate firebaseConfig.json
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build-and-deploy:
+  generate-config:
     runs-on: ubuntu-latest
 
     steps:
@@ -14,13 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2. Configurar Node.js
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-
-      # 3. Generar archivo de entorno para producción
+      # 2. Generar archivo de entorno para producción
       - name: Generate firebaseConfig.json
         run: |
           echo '{
