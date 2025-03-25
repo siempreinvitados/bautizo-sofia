@@ -23,3 +23,17 @@ jobs:
             "clientEmail": "${{ secrets.CLIENT_EMAIL }}",
             "privateKey": "${{ secrets.PRIVATE_KEY }}"
           }' > ./assets/firebaseConfig.json
+
+      # 3. Verificar que el archivo fue creado correctamente
+      - name: Verificar archivos en assets
+        run: ls -la ./assets
+
+      # 4. Mover archivos si es necesario para el flujo de GitHub Pages
+      - name: Mover archivos a raíz (opcional)
+        run: mv ./assets/firebaseConfig.json ./
+
+      # 5. Configurar flujo de trabajo para la subida de artefactos
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./assets/firebaseConfig.json
