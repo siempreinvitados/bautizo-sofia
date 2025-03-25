@@ -30,11 +30,7 @@ jobs:
             "privateKey": "${{ secrets.PRIVATE_KEY }}"
           }' > ./assets/firebaseConfig.json
 
-      # 4. Construir la aplicación Angular
-      - name: Build Angular app
-        run: npm run build -- --prod
-
-      # 5. Desplegar la aplicación
+      # 4. Desplegar la aplicación
       - name: Deploy application
         uses: peaceiris/actions-gh-pages@v3
         with:
