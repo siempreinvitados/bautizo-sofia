@@ -24,13 +24,20 @@ jobs:
       - name: Generate firebaseConfig.json
         run: |
           echo "{
-          \"projectId\": \"${{ secrets.PROJECT_ID }}\", 
-          \"databaseURL\": \"${{ secrets.DATABASEURL }}\",
-          \"clientEmail\": \"${{ secrets.CLIENT_EMAIL }}\",
-          \"privateKey\": \"${{ secrets.PRIVATE_KEY }}\"
+        \"apiKey\": \"${{ secrets.API_KEY }}\",
+        \"authDomain\": \"${{ secrets.AUTH_DOMAIN }}\",
+        \"databaseURL\": \"${{ secrets.DATABASE_URL }}\",
+        \"projectId\": \"${{ secrets.PROJECT_ID }}\",
+        \"storageBucket\": \"${{ secrets.STORAGE_BUCKET }}\",
+        \"messagingSenderId\": \"${{ secrets.MESSAGING_SENDER_ID }}\",
+        \"appId\": \"${{ secrets.APP_ID }}\"
           }" > ./assets/firebaseConfig.json
 
-      # 4. Desplegar la aplicación
+      # 4. Construir la aplicación Angular
+      - name: Build Angular app
+        run: npm run build -- --prod
+
+      # 5. Desplegar la aplicación
       - name: Deploy application
         uses: peaceiris/actions-gh-pages@v3
         with:
