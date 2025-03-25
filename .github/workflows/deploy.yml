@@ -34,6 +34,7 @@ jobs:
 
       # 5. Configurar flujo de trabajo para la subida de artefactos
       - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-artifact@v3
         with:
+          name: firebaseConfig
           path: ./assets/firebaseConfig.json
