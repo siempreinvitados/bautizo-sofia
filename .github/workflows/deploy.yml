@@ -21,20 +21,17 @@ jobs:
           node-version: 18
 
       # 3. Generar archivo de entorno para producción
-      - name: Generate environment.prod.ts
+      - name: Generate firebaseConfig.json
         run: |
-          echo "export const environment = {
-            production: true,
-            firebaseConfig: {
-              apiKey: '${{ secrets.API_KEY }}',
-              authDomain: '${{ secrets.AUTH_DOMAIN }}',
-              databaseURL: '${{ secrets.DATABASE_URL }}',
-              projectId: '${{ secrets.PROJECT_ID }}',
-              storageBucket: '${{ secrets.STORAGE_BUCKET }}',
-              messagingSenderId: '${{ secrets.MESSAGING_SENDER_ID }}',
-              appId: '${{ secrets.APP_ID }}',
-            },
-          };" > ./src/environments/environment.prod.ts
+          echo "{
+        \"apiKey\": \"${{ secrets.API_KEY }}\",
+        \"authDomain\": \"${{ secrets.AUTH_DOMAIN }}\",
+        \"databaseURL\": \"${{ secrets.DATABASE_URL }}\",
+        \"projectId\": \"${{ secrets.PROJECT_ID }}\",
+        \"storageBucket\": \"${{ secrets.STORAGE_BUCKET }}\",
+        \"messagingSenderId\": \"${{ secrets.MESSAGING_SENDER_ID }}\",
+        \"appId\": \"${{ secrets.APP_ID }}\"
+          }" > ./assets/firebaseConfig.json
 
       # 4. Construir la aplicación Angular
       - name: Build Angular app
