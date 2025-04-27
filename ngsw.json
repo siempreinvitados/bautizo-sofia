@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1745717243967,
+  "timestamp": 1745776212846,
   "index": "https://siempreinvitados.github.io/bautizo-sofia/index.html",
   "assetGroups": [
     {
@@ -15,7 +15,7 @@
         "https://siempreinvitados.github.io/bautizo-sofia/chunk-SEWQ5GPH.js",
         "https://siempreinvitados.github.io/bautizo-sofia/favicon.ico",
         "https://siempreinvitados.github.io/bautizo-sofia/index.html",
-        "https://siempreinvitados.github.io/bautizo-sofia/main-Y6EM7KN7.js",
+        "https://siempreinvitados.github.io/bautizo-sofia/main-RTMXUTYA.js",
         "https://siempreinvitados.github.io/bautizo-sofia/manifest.webmanifest",
         "https://siempreinvitados.github.io/bautizo-sofia/polyfills-FFHMD2TL.js",
         "https://siempreinvitados.github.io/bautizo-sofia/styles-PFEMCQBG.css"
@@ -234,8 +234,8 @@
     "https://siempreinvitados.github.io/bautizo-sofia/icons/icon-512x512.png": "fed160e72426ee5de71f7c8bf73b4ca0bf6af3a4",
     "https://siempreinvitados.github.io/bautizo-sofia/icons/icon-72x72.png": "265dfc4e73e8c3522fe40ffabfd00e3e272744f9",
     "https://siempreinvitados.github.io/bautizo-sofia/icons/icon-96x96.png": "2dbd05b93d28138c2898d10c76466283ac172ea1",
-    "https://siempreinvitados.github.io/bautizo-sofia/index.html": "468a96094d3cf6c54e95f1154d58b7707e7aea56",
-    "https://siempreinvitados.github.io/bautizo-sofia/main-Y6EM7KN7.js": "cdd52c3cee88e41e43b90ae73b1dd47247452486",
+    "https://siempreinvitados.github.io/bautizo-sofia/index.html": "b9a0c4292214a01fa982ab2fcd17075d7b313b0c",
+    "https://siempreinvitados.github.io/bautizo-sofia/main-RTMXUTYA.js": "6f68e2564ab5f9cc79d2e09f0800969723a633df",
     "https://siempreinvitados.github.io/bautizo-sofia/manifest.webmanifest": "d5a1b4f3849955b21e046f51f11c2ddc95eaa575",
     "https://siempreinvitados.github.io/bautizo-sofia/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "https://siempreinvitados.github.io/bautizo-sofia/styles-PFEMCQBG.css": "c594989741a164c848901b79dc9eb2d4fc923484"
