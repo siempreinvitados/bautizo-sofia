@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1747177599496,
+  "timestamp": 1747469091334,
   "index": "https://siempreinvitados.github.io/bautizo-sofia/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://siempreinvitados.github.io/bautizo-sofia/favicon.ico",
         "https://siempreinvitados.github.io/bautizo-sofia/index.html",
-        "https://siempreinvitados.github.io/bautizo-sofia/main-TZPQJPVW.js",
+        "https://siempreinvitados.github.io/bautizo-sofia/main-JGAJ7U5Z.js",
         "https://siempreinvitados.github.io/bautizo-sofia/manifest.webmanifest",
         "https://siempreinvitados.github.io/bautizo-sofia/polyfills-FFHMD2TL.js",
         "https://siempreinvitados.github.io/bautizo-sofia/styles-GNUZXTL5.css"
@@ -48,7 +48,7 @@
         "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/gracias.png",
         "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/img_photo_1.png",
         "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/img_photo_2.png",
-        "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/liverpool_logo.jpg",
+        "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/liverpool_logo.png",
         "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/locationChurch.png",
         "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/locationParty.png",
         "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/mesaRegalos.png",
@@ -158,7 +158,7 @@
     "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/gracias.png": "e6dd5dd82ece4ee13350258e793e0b687e8c949c",
     "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/img_photo_1.png": "efb407569ac2d65a18e7c63d3d8afc67a48a717c",
     "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/img_photo_2.png": "ad393be2e70c9b18e04c299574d74121d27d7185",
-    "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/liverpool_logo.jpg": "631b50a4404bbaa8fd42bb7571d5fba70c02f8ea",
+    "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/liverpool_logo.png": "2d3bdd5fdb8386e6dcff6fc9c1e7ec71dbb2570f",
     "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/locationChurch.png": "64d5e52cb97683a7058094cda6ea51a8592b870f",
     "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/locationParty.png": "33f5d1b407ae231e62ed01d3bab102f21661c196",
     "https://siempreinvitados.github.io/bautizo-sofia/assets/img/countryside/mesaRegalos.png": "f74b5b6270513791cb5cc4df12d68ecfef77e872",
@@ -232,8 +232,8 @@
     "https://siempreinvitados.github.io/bautizo-sofia/icons/icon-512x512.png": "fed160e72426ee5de71f7c8bf73b4ca0bf6af3a4",
     "https://siempreinvitados.github.io/bautizo-sofia/icons/icon-72x72.png": "265dfc4e73e8c3522fe40ffabfd00e3e272744f9",
     "https://siempreinvitados.github.io/bautizo-sofia/icons/icon-96x96.png": "2dbd05b93d28138c2898d10c76466283ac172ea1",
-    "https://siempreinvitados.github.io/bautizo-sofia/index.html": "31260b44def3fffbbccd30478c55385f3e4b8aa0",
-    "https://siempreinvitados.github.io/bautizo-sofia/main-TZPQJPVW.js": "91a47a60a6477a74b2eabd291048fd17437b9558",
+    "https://siempreinvitados.github.io/bautizo-sofia/index.html": "e1be7aef350117e34581f8d13b191396f19c4171",
+    "https://siempreinvitados.github.io/bautizo-sofia/main-JGAJ7U5Z.js": "246f5fe8b7e5543e26820f57d1f53eccff875c38",
     "https://siempreinvitados.github.io/bautizo-sofia/manifest.webmanifest": "d5a1b4f3849955b21e046f51f11c2ddc95eaa575",
     "https://siempreinvitados.github.io/bautizo-sofia/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "https://siempreinvitados.github.io/bautizo-sofia/styles-GNUZXTL5.css": "c55c7f70975f042eb23b76eab925db9f23faee86"
