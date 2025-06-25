@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1750083195627,
+  "timestamp": 1750828733377,
   "index": "https://siempreinvitados.github.io/bautizo-sofia/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://siempreinvitados.github.io/bautizo-sofia/favicon.ico",
         "https://siempreinvitados.github.io/bautizo-sofia/index.html",
-        "https://siempreinvitados.github.io/bautizo-sofia/main-6XU56UG6.js",
+        "https://siempreinvitados.github.io/bautizo-sofia/main-IICQJWCV.js",
         "https://siempreinvitados.github.io/bautizo-sofia/manifest.webmanifest",
         "https://siempreinvitados.github.io/bautizo-sofia/polyfills-SCHOHYNV.js",
         "https://siempreinvitados.github.io/bautizo-sofia/styles-GNUZXTL5.css"
@@ -232,8 +232,8 @@
     "https://siempreinvitados.github.io/bautizo-sofia/icons/icon-512x512.png": "fed160e72426ee5de71f7c8bf73b4ca0bf6af3a4",
     "https://siempreinvitados.github.io/bautizo-sofia/icons/icon-72x72.png": "265dfc4e73e8c3522fe40ffabfd00e3e272744f9",
     "https://siempreinvitados.github.io/bautizo-sofia/icons/icon-96x96.png": "2dbd05b93d28138c2898d10c76466283ac172ea1",
-    "https://siempreinvitados.github.io/bautizo-sofia/index.html": "c97217e5263cf8f32ea6acb723af538467251467",
-    "https://siempreinvitados.github.io/bautizo-sofia/main-6XU56UG6.js": "24de13dc86a07dfef8273835e99ebcb65a5e319e",
+    "https://siempreinvitados.github.io/bautizo-sofia/index.html": "e500b65470689d94f3c82e1762ea84ae8351bb07",
+    "https://siempreinvitados.github.io/bautizo-sofia/main-IICQJWCV.js": "895f4b1e01a32f520c1ef1fcc6d30ab3562f7ad0",
     "https://siempreinvitados.github.io/bautizo-sofia/manifest.webmanifest": "d5a1b4f3849955b21e046f51f11c2ddc95eaa575",
     "https://siempreinvitados.github.io/bautizo-sofia/polyfills-SCHOHYNV.js": "d45c76c5960bab3ace7fd6d211b9579456241f8a",
     "https://siempreinvitados.github.io/bautizo-sofia/styles-GNUZXTL5.css": "c55c7f70975f042eb23b76eab925db9f23faee86"
